@@ -3,13 +3,13 @@ import * as React from "react";
 const JsBase = require("./JsBase");
 
 export class JsClass extends JsBase {
-    // constructor() {
-    //     super();
+    constructor() {
+        super();
 
-    //     // this.testFunc = this._testFunc.bind(this);
-    // }
+        this.testFunc = this._testFunc.bind(this);
+    }
 
-    testFunc() {
+    _testFunc() {
         return (
             <div>
                 {super.testFunc()}
