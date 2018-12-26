@@ -1,13 +1,13 @@
 import * as React from "react";
-
-const JsBase = require("./JsBase");
+import JsBase from "./JsBase";
+// const JsBase = require("./JsBase") as Cat;
 
 export class JsClass extends JsBase {
-    constructor() {
-        super();
+    // constructor() {
+    //     super();
 
-        // this.testFunc = this._testFunc.bind(this);
-    }
+    //     // this.testFunc = this._testFunc.bind(this);
+    // }
 
     testFunc() {
         return (

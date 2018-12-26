@@ -2,7 +2,14 @@
 
 const React = require("react");
 
-module.exports = React.createClass({
+// var x = function() {
+//     return {};
+// };
+// x.prototype.testFunc = function() {
+//     return <div>js 基类</div>;
+// };
+
+const exp = React.createClass({
     render: function() {
         return this.testFunc();
     },
@@ -11,3 +18,9 @@ module.exports = React.createClass({
         return <div>js 基类</div>;
     }
 });
+
+console.log(exp);
+
+// const exp = React.createClass(x);
+
+export default exp;
